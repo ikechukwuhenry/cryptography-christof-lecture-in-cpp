@@ -67,7 +67,7 @@ relocations:
   - { offsetInCU: 0xB25B, offset: 0xB25B, size: 0x8, addend: 0x0, symName: __ZNKSt3__111__wrap_iterIPjEdeB7v160006Ev, symObjAddr: 0x760, symBinAddr: 0x100003C2C, symSize: 0x18 }
   - { offsetInCU: 0xB27F, offset: 0xB27F, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIjNS_9allocatorIjEEE9push_backB7v160006ERKj, symObjAddr: 0x7B4, symBinAddr: 0x100003C80, symSize: 0x6C }
   - { offsetInCU: 0xB2B5, offset: 0xB2B5, size: 0x8, addend: 0x0, symName: __ZNSt3__111__wrap_iterIPjEppB7v160006Ev, symObjAddr: 0x820, symBinAddr: 0x100003CEC, symSize: 0x20 }
-  - { offsetInCU: 0xB2D9, offset: 0xB2D9, size: 0x8, addend: 0x0, symName: __Z10decryptionNSt3__16vectorIjNS_9allocatorIjEEEE10PrivateKey, symObjAddr: 0x840, symBinAddr: 0x100003D0C, symSize: 0x13C }
+  - { offsetInCU: 0xB2D9, offset: 0xB2D9, size: 0x8, addend: 0x0, symName: __Z10decryption10PrivateKeyNSt3__16vectorIjNS0_9allocatorIjEEEE, symObjAddr: 0x840, symBinAddr: 0x100003D0C, symSize: 0x13C }
   - { offsetInCU: 0xB39E, offset: 0xB39E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x97C, symBinAddr: 0x100003E48, symSize: 0x2F8 }
   - { offsetInCU: 0xB481, offset: 0xB481, size: 0x8, addend: 0x0, symName: __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC1B7v160006IDnEEPKc, symObjAddr: 0xC74, symBinAddr: 0x100004140, symSize: 0x34 }
   - { offsetInCU: 0xB4BE, offset: 0xB4BE, size: 0x8, addend: 0x0, symName: __ZNSt3__16vectorIjNS_9allocatorIjEEEC1ERKS3_, symObjAddr: 0xCA8, symBinAddr: 0x100004174, symSize: 0x34 }

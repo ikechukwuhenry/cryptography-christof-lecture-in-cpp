@@ -92,7 +92,7 @@ std::vector<unsigned int> encryption(PublicKey pubKey, std::vector<unsigned int>
     return encryptedValues;
 }
 
-std::vector<unsigned int> decryption(std::vector<unsigned int> ciphertext, PrivateKey privateKey)
+std::vector<unsigned int> decryption(PrivateKey privateKey, std::vector<unsigned int> ciphertext)
 {
     unsigned int n = privateKey.n;
     unsigned int d = privateKey.d;
@@ -128,7 +128,7 @@ int main(){
         std::cout << value << " ";
     }
     std::cout << std::endl;
-    std::vector<unsigned int> decryptValues = decryption(values, privateky);
+    std::vector<unsigned int> decryptValues = decryption(privateky, values);
     for(unsigned int dValue: decryptValues){
         std::cout << dValue << " ";
     }
